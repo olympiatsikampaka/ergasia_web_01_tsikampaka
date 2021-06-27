@@ -2,8 +2,9 @@
 .test{border: 1px solid red;
 }
 
-body{ 
+body,html{ 
     font-family:'ProximaNova-Rg';
+    height: 100%;
 }
 
 .bg-black {
@@ -15,11 +16,13 @@ body{
    height:100vh ; 
 }
 
-   .hero-text h1{ font-size: 5rem;
+   section.hero h1{
+        font-size: 5rem;
     font-family: 'ProximaNova Bold';
     letter-spacing: .1rem;
     color: #fff;
 }
+
 .hero-text p{
     font-size: 2.5rem;
     letter-spacing:.15rem;
@@ -27,4 +30,5 @@ body{
 section.hero{
     background:url(../img/hero_01.jpg)no-repeat center center;
     background-size: cover;
+    height: 80vh;
 }
